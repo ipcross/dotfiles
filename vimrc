@@ -228,7 +228,9 @@ let g:snippetsEmu_key = "<S-Tab>"
 " (only complete to the longest unambiguous match, and show a menu)
 set completeopt=longest,menu
 set wildmode=list:longest,list:full
+set wildignore+=*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*
 set complete=.,t
+
 
 " case only matters with mixed case expressions
 set ignorecase
@@ -252,3 +254,15 @@ function! OpenURL()
   endif
 endfunction
 map <Leader>w :call OpenURL()<CR>
+
+map <leader>q :NERDTreeToggle<CR>
+
+" Window map
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
+" Tab map
+noremap <A-j> gT
+noremap <A-k> gt
