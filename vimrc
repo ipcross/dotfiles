@@ -4,6 +4,49 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+" For vundle
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#rc()
+
+" Dependencies of snipmate
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+" Bundle "honza/vim-snippets"
+
+" Git tools
+Bundle 'tpope/vim-fugitive'
+" Dependency managment
+Bundle 'gmarik/vundle'
+" Rails :/
+Bundle 'tpope/vim-rails.git'
+" Snippets for our use :)
+Bundle 'garbas/vim-snipmate'
+" Commenting and uncommenting stuff
+Bundle 'tomtom/tcomment_vim'
+" Github theme
+Bundle 'acarapetis/vim-colors-github'
+" Vim Ruby
+Bundle 'vim-ruby/vim-ruby'
+" Surround your code :)
+Bundle 'tpope/vim-surround'
+" Every one should have a pair (Autogenerate pairs for "{[( )
+Bundle 'jiangmiao/auto-pairs'
+" Tab completions
+Bundle 'ervandew/supertab'
+" Fuzzy finder for vim (CTRL+P)
+Bundle 'kien/ctrlp.vim'
+" For tests
+Bundle 'janko-m/vim-test'
+" Navigation tree
+Bundle 'scrooloose/nerdtree'
+" Dispatching the test runner to tmux pane
+Bundle 'tpope/vim-dispatch'
+
+Bundle 'plasticboy/vim-markdown'
+
+filetype plugin indent on
+
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
