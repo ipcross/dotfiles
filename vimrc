@@ -44,6 +44,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-dispatch'
 
 Bundle 'plasticboy/vim-markdown'
+Bundle 'Lokaltog/vim-powerline'
 
 filetype plugin indent on
 

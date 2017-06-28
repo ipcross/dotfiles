@@ -13,10 +13,7 @@ if version > 580
 endif
 
 let colors_name="github"
-
-if has("gui_running")
-    set background=light
-endif
+set background=light
 
 hi Normal       guifg=#000000 ctermfg=16   guibg=#F8F8FF ctermbg=231  gui=NONE cterm=NONE
 hi DiffAdd      guifg=#003300 ctermfg=22   guibg=#DDFFDD ctermbg=194  gui=NONE cterm=NONE
@@ -70,7 +67,7 @@ hi TabLineFill  guifg=#404040 ctermfg=238  guibg=#DDDDDD ctermbg=253  gui=NONE c
 hi TabLineSel   guifg=#404040 ctermfg=238  gui=BOLD cterm=BOLD
 hi cucumberTags guifg=#333333 ctermfg=236  guibg=#FFFF66 ctermbg=227  gui=BOLD cterm=BOLD
 hi htmlTagN     gui=BOLD cterm=BOLD
-hi Cursor       guifg=#D8D8DD ctermfg=253  guibg=#444454 ctermbg=238  gui=NONE cterm=NONE
+hi Cursor       guifg=#F8F8FF ctermfg=231  guibg=#444454 ctermbg=238  gui=NONE cterm=NONE
 hi CursorLine   guibg=#D8D8DD ctermbg=253  gui=NONE cterm=NONE
 hi CursorColumn guibg=#D8D8DD ctermbg=253  gui=NONE cterm=NONE
 
