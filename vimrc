@@ -1,5 +1,4 @@
 " based on http://github.com/jferris/config_files/blob/master/vimrc
-
 " Use Vim settings, rather then Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
 set nocompatible
@@ -38,8 +37,12 @@ Bundle 'ervandew/supertab'
 Bundle 'kien/ctrlp.vim'
 " For tests
 Bundle 'janko-m/vim-test'
+
 " Navigation tree
 Bundle 'scrooloose/nerdtree'
+Bundle 'jistr/vim-nerdtree-tabs'
+Bundle 'vim-syntastic/syntastic'
+
 " Dispatching the test runner to tmux pane
 Bundle 'tpope/vim-dispatch'
 
@@ -258,6 +261,8 @@ endfunction
 map <Leader>w :call OpenURL()<CR>
 
 map <leader>q :NERDTreeToggle<CR>
+nmap <silent> <leader>t :NERDTreeTabsToggle<CR>
+let g:nerdtree_tabs_open_on_console_startup = 1
 
 nmap <F8> :TagbarToggle<CR>
 
@@ -270,3 +275,5 @@ map <C-l> <C-w>l
 " Tab map
 noremap <A-h> gT
 noremap <A-l> gt
+
+set mouse=a
