@@ -45,6 +45,7 @@ Bundle 'tpope/vim-dispatch'
 
 Bundle 'plasticboy/vim-markdown'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'majutsushi/tagbar'
 
 filetype plugin indent on
 
@@ -258,6 +259,8 @@ map <Leader>w :call OpenURL()<CR>
 
 map <leader>q :NERDTreeToggle<CR>
 
+nmap <F8> :TagbarToggle<CR>
+
 " Window map
 map <C-h> <C-w>h
 map <C-j> <C-w>j
@@ -265,5 +268,5 @@ map <C-k> <C-w>k
 map <C-l> <C-w>l
 
 " Tab map
-noremap <A-j> gT
-noremap <A-k> gt
+noremap <A-h> gT
+noremap <A-l> gt
