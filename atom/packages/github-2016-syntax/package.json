@@ -1,0 +1,66 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-116910-799-1v4xlrj/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-116910-799-1v4xlrj/package.tgz",
+        "spec": "/tmp/d-116910-799-1v4xlrj/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-116910-799-1h3a194"
+    ]
+  ],
+  "_from": "../d-116910-799-1v4xlrj/package.tgz",
+  "_id": "github-2016-syntax@1.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/github-2016-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-116910-799-1v4xlrj/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-116910-799-1v4xlrj/package.tgz",
+    "spec": "/tmp/d-116910-799-1v4xlrj/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-116910-799-1v4xlrj/package.tgz",
+  "_shasum": "a78c2ba39e28b9634fb6bc3ffa626d8f85a884b5",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-116910-799-1v4xlrj/package.tgz",
+  "_where": "/tmp/apm-install-dir-116910-799-1h3a194",
+  "bugs": {
+    "url": "https://github.com/mmcbride1007/github-2016-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "GitHub flavored syntax theme for Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/mmcbride1007/github-2016-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "github",
+    "light"
+  ],
+  "license": "MIT",
+  "name": "github-2016-syntax",
+  "optionalDependencies": {},
+  "readme": "# github-2016-syntax theme\n\nGitHub syntax highlighting theme for Atom.\n\nThis is as close as I could get to matching the syntax highlighting from GitHub.com as of early January 2016. Due to the syntax highlighting library they use on the site, there are some minor inconsistencies but those felt more like edge cases (and Atom actually handles it better than Pygments does in those cases). I compared syntax highlighting on 5 or 6 major languages and by the last one I hardly saw any differences, so I feel pretty good about this. If you find some differences you'd like fixed, go ahead and try to get it working locally and cut a PR here.\n\nSee screenshots of some common languages below.\n\n### HTML:\n![screenshot](https://raw.github.com/mmcbride1007/github-2016-syntax/master/media/github-syntax-html-screenshot.png)\n\n### JavaScript:\n![screenshot](https://raw.github.com/mmcbride1007/github-2016-syntax/master/media/github-syntax-js-screenshot.png)\n\n### CSS:\n![screenshot](https://raw.github.com/mmcbride1007/github-2016-syntax/master/media/github-syntax-css-screenshot.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmcbride1007/github-2016-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.2.0"
+}
