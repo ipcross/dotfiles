@@ -23,8 +23,6 @@ Bundle 'tpope/vim-rails.git'
 Bundle 'garbas/vim-snipmate'
 " Commenting and uncommenting stuff
 Bundle 'tomtom/tcomment_vim'
-" Github theme
-Bundle 'acarapetis/vim-colors-github'
 " Vim Ruby
 Bundle 'vim-ruby/vim-ruby'
 " Surround your code :)
@@ -49,6 +47,7 @@ Bundle 'tpope/vim-dispatch'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'majutsushi/tagbar'
+Bundle 'nathanaelkane/vim-indent-guides'
 
 filetype plugin indent on
 
@@ -218,6 +217,8 @@ if executable("ack")
 endif
 
 " Color scheme
+set t_Co=256
+set background=light
 colorscheme github
 " highlight NonText guibg=#060606
 " highlight Folded  guibg=#0A0A0A guifg=#9090D0
@@ -281,3 +282,7 @@ noremap <A-h> gT
 noremap <A-l> gt
 
 set mouse=a
+
+let g:indent_guides_guide_size = 1
+let g:indent_guides_enable_on_vim_startup = 1
+
